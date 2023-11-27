@@ -1,0 +1,614 @@
+font-face
+{
+
+    font-family: my_font;
+    
+	src: url('../virtual/MLRV0NTT.eot');
+    src: local(my_font), url('../virtual/MLRV0NTT.ttf') format('opentype');
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#FFFFFF;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*...............floating image object   */
+.imgleft {
+	float: left;
+	padding: 10px 10px 0px 10px;
+}
+
+.imgright {
+float: right;
+padding: 10px 10px 0px 10px;
+}
+/*.............. Gradient images repeeeting over the page*/
+.body {
+padding: 0px;
+margin: 50px;
+background: url(../Images/mainLntmpW.jpg) repeat-y;
+/*background: url(../Images/mainLn0Copy.jpg) repeat-y;*/
+/*background: url(../Images/mainLnB.jpg) repeat-y;*/
+background-color: #F8F8F5;
+/*font:  100% Verdana, Geneva, Arial, Helvetica, sans-serif; */
+left:70px;
+top:10px;
+
+}
+.bodyW {
+padding: 0px;
+margin: 50px;
+/*background: url(../Images/mainnw1Copy.jpg) repeat-y; */
+background: url(../Images/MainTmp5.jpg) ; 
+background-color: #F8F8F5;
+/*font:  100% Verdana, Geneva, Arial, Helvetica, sans-serif; */
+left:1px;
+top:1px;
+
+}
+
+/* styles the tables used  */
+.borderTable {	
+width: 200px;
+color: #131313;
+font-family:"Times New Roman", Times, serif;
+font-size:12px;
+/*background-color:#AFADAD;
+*/
+}
+/* ............... shadow effect on images */
+.shadow {
+padding: 0px;
+margin: 0px;
+background: url(Images/0015-0610-1607-2405_TN.jpg);    /*the path to your image*/
+background-repeat: repeat-y;
+background-position: center center;
+background-color: #666666;
+font: 101% Verdana;
+}
+
+/*this gives the soft grey border to the top table*/
+.border{
+margin: auto auto;	
+width: 700px;
+padding: 2px 4px 2px 4px;
+border: 1px solid #CCCCCC;
+padding: 10px;
+color: #333333;
+}
+/* ............fixed background images known as watermark */
+
+.watermark {
+padding: 0px;
+margin: 0px;
+background-image: url(Images/bg.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   /* background-color:white;  /*change color to suit*/
+    color : #000;  /*change color to suit*/
+}
+.text{
+width:200px;
+height:20px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+color:#696969;
+
+}
+.textmal{
+width:200px;
+height:20px;
+font-family:my_font;
+font-size:12px;
+color:#696969;
+
+}
+.textuncode{
+width:220px;
+height:25px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:18px;
+color:#696969;
+
+}
+.combo{
+width:auto;
+color: #666666;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#000000;
+}
+.combotitle{
+width:95px;
+color: #666666;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#000000;
+}
+.combounititle{
+width:260px;
+color: #666666;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#000000;
+}
+.combouniHosp{
+width:580px;
+color: #666666;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#000000;
+}
+.comboHosp{
+width:200px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+}
+.combodet{
+width:200px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:10px;
+}
+.comboHospMal{
+width:200px;
+font-family:ML-TTRevathi;
+font-size:14px;
+}
+.bodytmp {
+background: url(../Images/mainLntmpW.jpg) repeat-y;
+/*background: url(../Images/mainLnB.jpg) repeat-y;*/
+background-color: #F8F8F5;
+/*font:  100% Verdana, Geneva, Arial, Helvetica, sans-serif; */
+left:0px;
+top:0px; 
+color:#636463;
+
+}
+.comboMal{
+width:auto;
+font-family:ML-TTRevathi;
+font-size:13px;
+background-color:#E4E6E3;
+color:#000000;
+}
+.body_Admin {
+padding: 0px;
+margin: 50px;
+background: url(../Images/mainLntmpW.jpg) repeat-y;
+background-color: #F8F8F5;
+font-family:"Times New Roman", Times, serif;
+left:70px;
+top:10px;
+
+}
+.btn{
+	width:70px;
+	/*background-color:#7D7D7D;*/
+	margin:2px;
+	font-style:italic;
+	height:20px;
+}
+.td_head{color:#000000;
+background-color:#FFD6C1;
+
+}
+.td_Subhead{
+color:#000000;	
+background-color:#FFE6CC;
+
+}
+/*-----------------------------------New header------------------*/
+
+BODY {
+	font-weight: normal;
+	background-color: #93B499; 
+/*	background-image:url(../Images/BG_Ind.jpg); */
+}
+TD {
+	/*font-family:"Times New Roman", Times, serif;
+	font-size: 12px; */
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 150%;
+
+}
+.white {
+	color: #FFFFFF;
+}
+.green {
+	color: #306C3C;
+}
+.underline {
+	text-decoration: underline;
+}
+.px11 {
+	font-size: 11px;
+}
+/* Modified on 3.1.13 by savitha */
+.HeadMain
+{
+	font-family:"Book Antiqua"
+	font-size:12px;
+}
+.HeadSmall
+{
+	font-family:Trebuchet MS;
+	font-size:11px;
+	font-weight:bold;
+	text-align:center;
+}
+.menu_list {
+	width: 160px;
+}
+.menu_head {
+	padding: 2px ;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+       font-weight:bold;
+       background: white url(../images/left.png) center right no-repeat;
+}
+.menu_body {
+	display:none;
+}
+.menu_body a {
+  display:block;
+  color:#006699;
+  background-color:#EFEFEF;
+  padding-left:10px;
+  font-weight:bold;
+  text-decoration:none;
+}
+.menu_body a:hover {
+  color: #000000;
+  text-decoration:underline;
+}
+.menu_Subhead {
+	padding: 5px ;
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+       font-weight:bold;
+       background: center right no-repeat;
+	  
+	  
+	  
+}
+.Subhead{color: #306C3C;
+/*background-color:#FFDDDD;*/
+}
+.btnSubmit{ background-image:url(../Images/Submit1.png);
+			width:120px;
+			height:30px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			  display: block;
+			}
+.btnSearch{ background-image:url(../Images/ButtonSearch1.gif);
+			width:120px;
+			height:30px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			    display: block;
+			}
+.btnBack{ background-image:url(../Images/ButtonBack.gif);
+			width:120px;
+			height:30px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			    display: block;
+			}
+.Index_tab{ border:dotted #C9C9C9; padding:5px 5px 5px ; margin-left:10px;		
+}
+.Textinfo{width:200px;
+height:50px;
+
+}
+.TextDate{width:30px;
+height:20px;
+}
+.TextYear{width:50px;
+height:20px;
+}
+.TextReg{width:100px;
+height:20px;
+}
+.lgndOFF{
+font-size:10px; color:#003300;
+font-weight:bold ;
+}		
+
+/* For online Application*/
+.btnNext{ background-image:url(../Images/next1.gif);
+			width:120px;
+			height:31px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			  display: block;
+			}
+.btnPrevious{ background-image:url(../Images/previous.gif);
+			width:120px;
+			height:31px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			  display: block;
+			}	
+.btnPrint{ background-image:url(../Images/ButtonPrint1.gif);
+			width:120px;
+			height:30px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			    display: block;
+			}	
+			
+.tdN
+{
+font-size:12px;
+color:#797900;
+}	
+.tdNun
+{
+font-size:10px;
+color:#797900;
+}	
+.tdNMal
+{
+font-family:my_font;
+font-size:16px;
+
+color:#797900;
+}	
+.tdN1
+{
+font-size:14px;
+color:#797900;
+}	
+
+
+.acBody{
+		background-color:#FFFFFF;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		
+		}
+
+	.btnLogin{ background-image:url(../Images/Button.jpg);
+			width:120px;
+			height:30px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			  display: block;
+			}
+
+.comboEfileType{
+width:220px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+}
+.tabefile{
+		width:500px;
+		border-collapse:collapse;
+		font-weight:bold;
+		overflow:auto;
+		}
+.cmnAppnSubmt{ 
+			height:30px; 
+			border: 3px thin #000000;
+			background-color:#FFFFFF;
+			font-family:Georgia, "Times New Roman", Times, serif;
+			font-size:11px;
+			font-weight:bold;
+			font-style:italic;
+			color:#5E0000;
+			  cursor:default;
+			  display: block;
+			}
+                   
+.textdoc{
+width:78px;
+height:20px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:11px;
+color:#000000;
+
+}
+
+ a.tip {font:10px/12px
+                    Arial,Helvetica,sans-serif; border:solid 1px
+                    #666666; width:270px; padding:1px;
+                    position:absolute; z-index:100;
+                    visibility:hidden; color:#333333; top:20px;
+                    left:90px; background-color:#ffffcc;
+                    layer-background-color:#ffffcc;}
+					
+					#tt {
+ position:absolute;
+ display:block;
+
+ }
+
+
+
+a.info{
+    position:relative; /*this is the key*/
+    z-index:24; background-color:#ccc;
+    color:#000;
+    text-decoration:none}
+
+a.info:hover{z-index:25; background-color:#ff0}
+
+a.info span{display: none}
+
+a.info:hover span{ /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:1em; right:3em; width:7em;
+    border:1px solid #0cf;
+    background-color:#FFFFFF; color:#990099;
+    text-align: center;
+	font-size:10px}
+.Index_tab_1{
+background-image:url(../Images/Dot_ash.jpg);
+}
+.Index_tab_2{
+background: url(../Images/Dot_ash.jpg) repeat-x;
+}
+.Index_tab_b{
+background-image:url(../Images/Dot_blue.jpg);
+}
+.Index_tab_2b{
+background: url(../Images/Dot_blue.jpg) repeat-x;
+}
+.Index_tab_3{
+border-collapse:collapse;
+}
+.Index_tab_h{
+margin:10px;
+background-image:url(../Images/Dot_white.jpg);
+}
+.Index_tab_2h{
+background: url(../Images/Dot_white.jpg) repeat-x;
+}
+.bg_main {
+	font-weight: normal;
+	background-image:url(../Images/BG_Ind.jpg);
+}
+/*added by savitha on 9.11.12 for -Graph */
+.th_Graph_00{
+font:"Times New Roman", Times, serif;
+font-size:10px; font-weight:bold; font-style: oblique;
+border-bottom:medium  #999999 solid ;
+color:#804040;
+
+}
+.td_Graph_00{
+font-family:"Book Antiqua";
+color:#804040;
+font-size:12px;
+/*
+background:url('../Images/blue_Point.png');repeat-x;
+border-bottom:medium  #999999 solid ;
+border-top:medium  #999999 solid ;
+border-left:thin  #999999 solid ;
+border-right:thin  #999999 solid ;
+*/
+/*opacity:0.6;
+filter:alpha(opacity=60); */
+}
+/*********** End ***********************/				 	
+
+/**Included on 7.3.13 for wb-admin*/
+.tabAdmin{
+		width:300px;
+		border-collapse:collapse;
+		font-weight:bold;
+		overflow:auto;
+		}
+/**Included on 5.6.13 for ver-admin*/
+.listBox{
+width:auto;
+color:#400000;
+font-family:"Courier New", Courier, monospace;
+font-size:11px;
+overflow:auto;
+}
+.listOpt{
+width:auto;
+height:20px;
+padding-left:5px;
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #99B58D 0%, #F0E6B4 100%);
+
+
+}
+.btnRefresh{ background-image:url(../Images/refresh.png);
+			width:48px;
+			height:28px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			  display: block;
+			}
+/*efile modification*/
+.btnClose{ background-image:url(../Images/BtnClose.png);
+			width:120px;
+			height:30px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			    display: block;
+			}	
+.btnSve{ background-image:url(../Images/ButtonSaveapn.gif);
+			width:120px;
+			height:30px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			    display: block;
+			}	
+/**included on 26.09.2013 for hk-efile-regn*/
+.btnRefresh{ background-image:url(../Images/refresh.png);
+			width:48px;
+			height:28px; 
+			border: 0px solid #FFFFFF;
+			  cursor:default;
+			  display: block;
+			}
+.tabefile{
+		width:500px;
+		border-collapse:collapse;
+		font-weight:bold;
+		overflow:auto;
+		border-width:thin ;
+		}
+.Divefile{
+		width:500px;
+		border-collapse:collapse;
+		font-weight:bold;
+		overflow:auto;
+		height:500px;
+		}
+/*******included on 20.11.2013 for efile death */
+.dspan{ color:#993300;
+		font-size:9px;
+		}
+.combounicmb{
+width:255px;
+color: #666666;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000000;
+}
+.txtMalLng{
+width:450px;
+font-family:my_font;
+font-size:14px;
+color:#000000;
+}
+.combMal{
+width:255px;
+color: #666666;
+font-family:ML-TTRevathi;
+/*font-family:my_font; */
+font-size:14px;
+color:#000000;
+}
+.txtEngLng{
+width:400px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#000000;
+}
+.tdNMalview
+{
+font-family:my_font;
+font-size:14px;
+color:#797900;
+}	
+.tdEfileUn{	
+font-size:10px;
+color:#797900;
+}
